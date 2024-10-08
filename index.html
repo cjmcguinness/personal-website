@@ -8,43 +8,56 @@
 </head>
 <body>
     <header>
-        <h1>Conor McGuinness </h1>
+        <h1>Conor McGuinness</h1>
         <h3>Software Developer and Patent Attorney</h3>
     </header>
     <main>
+        <section class="about">
+            <h2>About me</h2>
+            <p>As a European and Chartered Patent Attorney specializing in software inventions, I bring a unique combination of legal expertise and technical insight to software development. Throughout my legal career, I have honed exceptional analytical and communication skills. My daily work involves quickly and efficiently digesting complex concepts to understand a wide range of technologies, then communicating this understanding in oral and written form to both clients and patent offices worldwide to secure commercially valuable patent protection. Around half of my practice involves providing legal services for startup clients.</p>
+            <p>The most enjoyable part of being an attorney is solving complex technical and legal problems, and a startup environment would be ideal for applying these skills. Given my professional and educational background, I can add the most value as a software developer. My experience has trained me to manage high-stakes tasks with tight immovable deadlines; qualities well-suited to the fast-paced nature of startups. In transitioning to software development, I have built a solid foundation through personal projects (listed below), online courses, and reading. I am now ready to apply this experience in a professional setting, contributing meaningfully to a team and product.</p>
+        </section>
         
-        <h2>About me</h2>
-        <p>As a European and Chartered Patent Attorney specializing in software inventions, I bring a unique combination of legal expertise and technical insight to software development. Throughout my legal career, I have honed exceptional analytical and communication skills. My daily work involves quickly and efficiently digesting complex concepts to understand a wide range of technologies, then communicating this understanding in oral and written form to both clients and patent offices worldwide to secure commercially valuable patent protection.  Around half of my practice involves providing legal services for startup clients.</p>
-        <p>The most enjoyable part of being an attorney is solving complex technical and legal problems, and a startup environment would be ideal for applying these skills. Given my professional and educational background, I can add the most value as a software developer. My experience has trained me to manage high-stakes tasks with tight immovable deadlines; qualities well-suited to the fast-paced nature of startups. In transitioning to software development, I have built a solid foundation through personal projects (listed below), online courses, and reading. I am now ready to apply this experience in a professional setting, contributing meaningfully to a team and product.</p>
-        
-        <h2>Projects</h2>
-        <h3>Terrain Image Generator</h3>
-        <h4><a href="https://github.com/cjmcguinness/terrain-image-generator">GitHub</a></h4>
-        <ul>
-            <li>Developed a full stack web application for dynamic map visualization and customization.</li>
-            <li>Built the front end using HTML, CSS, and React with an integrated Leaflet map for interactive area selection by users.</li>
-            <li>Users can select between hillshaded or contour maps.</li>
-            <li>The backend, written in Rust, processes selected areas and generates hillshade or SVG contour plots which are then returned to the front end.</li>
-            <li>Utilized AWS's Open Data Registry to source the geospatial data required for generating the maps.</li>
-        </ul>
-
-        <h3>Meneval: Full-Stack Organization Tool</h3>
-        <h4><a href="https://meneval.xyz/">meneval.xyz</a> | <a href="https://github.com/cjmcguinness/meneval">GitHub</a></h4>
-        <ul>
-            <li>A full-stack organization tool inspired by deadline management practices in private patent practice</li>
-            <li>Frontend: Hosted on an S3 bucket, built with HTML, CSS, and JavaScript</li>
-            <li>Backend: Deployed on an EC2 Ubuntu instance using Node.js with Express and React, allowing for user interactions and data management</li>
-            <li>Database: Utilized PostgreSQL to store user tasks and diary dates</li>
-            <li>User authentication: enabling secure login and personalized task management</li>
-        </ul>
-
-        <h3>Groked Algorithms</h3>
-        <h4><a href="https://github.com/cjmcguinness/grokked-algorithms">GitHub</a></h4>
-        <ul>
-            <li>Coded set of algorithms in JavaScript, Python, & Rust to help ‘grok’ both the algorithms and the syntax of the languages</li>
-            <li>The algorithms are: Binary Search; Selection Sort; Quick Sort; Breadth-First Search (BFS); & Dijkstra’s Algorithm</li>
-            <li>To support my transition to software development, a good friend lent me several books on coding, one of which was 'Grokking Algorithms' which, <i>inter alia</i>, describes these algorithms</li>
-        </ul>
+        <section class="projects">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Terrain Image Generator</h3>
+                <h4><a href="https://github.com/cjmcguinness/terrain-image-generator">GitHub</a></h4>
+                <ul>
+                    <li>Developed a full stack web application for dynamic map visualization and customization.</li>
+                    <li>Built the front end using HTML, CSS, and React with an integrated Leaflet map for interactive area selection by users.</li>
+                    <li>Users can select between hillshaded or contour maps.</li>
+                    <li>The backend, written in Rust, processes selected areas and generates hillshade or SVG contour plots which are then returned to the front end.</li>
+                    <li>Utilized AWS's Open Data Registry to source the geospatial data required for generating the maps.</li>
+                </ul>
+            </div>
+            
+            <hr class="divider">
+            
+            <div class="project">
+                <h3>Meneval: Full-Stack Organization Tool</h3>
+                <h4><a href="https://meneval.xyz/">meneval.xyz</a> | <a href="https://github.com/cjmcguinness/meneval">GitHub</a></h4>
+                <ul>
+                    <li>A full-stack organization tool inspired by deadline management practices in private patent practice.</li>
+                    <li>Frontend: Hosted on an S3 bucket, built with HTML, CSS, and JavaScript.</li>
+                    <li>Backend: Deployed on an EC2 Ubuntu instance using Node.js with Express and React, allowing for user interactions and data management.</li>
+                    <li>Database: Utilized PostgreSQL to store user tasks and diary dates.</li>
+                    <li>User authentication: enabling secure login and personalized task management.</li>
+                </ul>
+            </div>
+            
+            <hr class="divider">
+            
+            <div class="project">
+                <h3>Groked Algorithms</h3>
+                <h4><a href="https://github.com/cjmcguinness/grokked-algorithms">GitHub</a></h4>
+                <ul>
+                    <li>Coded set of algorithms in JavaScript, Python, & Rust to help ‘grok’ both the algorithms and the syntax of the languages.</li>
+                    <li>The algorithms are: Binary Search; Selection Sort; Quick Sort; Breadth-First Search (BFS); & Dijkstra’s Algorithm.</li>
+                    <li>To support my transition to software development, a good friend lent me several books on coding, one of which was 'Grokking Algorithms' which, <i>inter alia</i>, describes these algorithms.</li>
+                </ul>
+            </div>
+        </section>
     </main>
     <footer>
         <p>&copy; 2024 Conor McGuinness</p>

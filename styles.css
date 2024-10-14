@@ -50,20 +50,20 @@ main {
 }
 
 a {
-    color: #333; /* Black color for unvisited links */
-    text-decoration: none; /* Remove underline */
+    color: #333;
+    text-decoration: none;
 }
 
 a:visited {
-    color: #666; /* Grey color for visited links */
+    color: #666;
 }
 
 a:hover {
-    text-decoration: underline; /* Add underline when hovered */
+    text-decoration: underline;
 }
 
 a:active {
-    color: #000; /* Make link black when active/clicked */
+    color: #000;
 }
 
 .projects {

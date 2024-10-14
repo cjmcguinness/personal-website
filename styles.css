@@ -44,8 +44,9 @@ main {
     margin-bottom: 1.5rem;
 }
 
-.projects {
-    margin-top: 2rem;
+.about h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
 }
 
 a {
@@ -63,6 +64,10 @@ a:hover {
 
 a:active {
     color: #000; /* Make link black when active/clicked */
+}
+
+.projects {
+    margin-top: 2rem;
 }
 
 .projects h2 {

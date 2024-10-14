@@ -1,5 +1,6 @@
 body {
     font-family: 'Helvetica Neue', Arial, sans-serif;
+    text-align: justify;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
@@ -45,6 +46,23 @@ main {
 
 .projects {
     margin-top: 2rem;
+}
+
+a {
+    color: #333; /* Black color for unvisited links */
+    text-decoration: none; /* Remove underline */
+}
+
+a:visited {
+    color: #666; /* Grey color for visited links */
+}
+
+a:hover {
+    text-decoration: underline; /* Add underline when hovered */
+}
+
+a:active {
+    color: #000; /* Make link black when active/clicked */
 }
 
 .projects h2 {
